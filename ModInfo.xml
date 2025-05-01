@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
-	<Name value="AutoAttack" />
-	<DisplayName value="auto-attack" />
+	<Name value="AutoMelee" />
+	<DisplayName value="auto-melee" />
 	<Description value="" />
-	<Author value="" />
+	<Author value="leopardtheboss" />
 	<Version value="0.0.0" />
 	<Website value="" />
 </xml>

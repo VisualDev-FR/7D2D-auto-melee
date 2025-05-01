@@ -2,7 +2,7 @@ using System.Reflection;
 
 namespace Harmony
 {
-    public class AutoAttack : IModApi
+    public class AutoMelee : IModApi
     {
         public void InitMod(Mod _modInstance)
         {

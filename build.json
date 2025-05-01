@@ -1,13 +1,8 @@
 {
-    "name": "auto-attack",
-    "csproj": "auto-attack.csproj",
+    "name": "auto-melee",
+    "csproj": "auto-melee.csproj",
     "include": [
-        "ModInfo.xml",
-        "ModConfig.xml",
-        "Config",
-        "UIAtlases",
-        "Resources",
-        "Prefabs"
+        "ModInfo.xml"
     ],
     "prefabs": [],
     "dependencies": [],

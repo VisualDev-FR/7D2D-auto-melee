@@ -9,8 +9,8 @@
         <ProjectGuid>{4069FB6B-DC75-4192-8208-1BF2C0EF7227}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>auto-attack</RootNamespace>
-        <AssemblyName>auto-attack</AssemblyName>
+        <RootNamespace>auto-melee</RootNamespace>
+        <AssemblyName>auto-melee</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <Deterministic>true</Deterministic>
@@ -53,21 +53,6 @@
             <Private>False</Private>
         </Reference>
 
-        <Reference Include="System">
-            <HintPath>$(PATH_7D2D)\7DaysToDie_Data\Managed\System.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-
-        <Reference Include="System.Xml">
-            <HintPath>$(PATH_7D2D)\7DaysToDie_Data\Managed\System.Xml.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-
-        <Reference Include="System.Xml.Linq">
-            <HintPath>$(PATH_7D2D)\7DaysToDie_Data\Managed\System.Xml.Linq.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-
         <Reference Include="UnityEngine.CoreModule">
             <HintPath>$(PATH_7D2D)\7DaysToDie_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
             <Private>False</Private>
@@ -75,11 +60,6 @@
 
         <Reference Include="UnityEngine.InputLegacyModule">
             <HintPath>$(PATH_7D2D)\7DaysToDie_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-
-        <Reference Include="ModUtils">
-            <HintPath>$(PATH_7D2D)\Mods\7D2D-mod-utils\mod-utils.dll</HintPath>
             <Private>False</Private>
         </Reference>
 
