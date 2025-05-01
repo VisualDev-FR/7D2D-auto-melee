@@ -1,0 +1,15 @@
+{
+    "name": "auto-attack",
+    "csproj": "auto-attack.csproj",
+    "include": [
+        "ModInfo.xml",
+        "ModConfig.xml",
+        "Config",
+        "UIAtlases",
+        "Resources",
+        "Prefabs"
+    ],
+    "prefabs": [],
+    "dependencies": [],
+    "clear_saves": []
+}
