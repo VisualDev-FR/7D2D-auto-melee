@@ -16,7 +16,7 @@ public class H_ItemActionDynamicMelee_OnHoldingUpdate
         if (_actionData.invData.holdingEntity.entityId != GameManager.Instance.World.GetPrimaryPlayerId())
             return;
 
-        bool middleMousePressed = Input.GetMouseButton(2);
+        bool middleMousePressed = Input.GetKey(Config.autoMeleeKey);
         bool middleMouseDelayOK = Time.time - lastUseTime > 0.5f;
 
         if (middleMousePressed && middleMouseDelayOK)

@@ -2,7 +2,8 @@
     "name": "auto-melee",
     "csproj": "auto-melee.csproj",
     "include": [
-        "ModInfo.xml"
+        "ModInfo.xml",
+        "ModConfig.cfg"
     ],
     "prefabs": [],
     "dependencies": [],
